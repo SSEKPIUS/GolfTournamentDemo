@@ -18,10 +18,16 @@ onMounted(() => {
                 name: 'Score Distribution',
                 type: 'pie',
                 radius: ['40%', '70%'],
-                center: ['50%', '70%'],
+                center: ['50%', '50%'],
                 // adjust the start and end angle
                 startAngle: 180,
                 endAngle: 360,
+                label: {
+                    show: false
+                },
+                labelLine: {
+                    show: false
+                },
                 data: [
                     { value: 0, name: 'Eagles' },
                     { value: 18, name: 'Birdies' },
@@ -38,7 +44,7 @@ onMounted(() => {
 
 <template>
     <div>
-        <div id="main-chart" style="width: 100%; height: 400px;"></div>
+        <div id="main-chart" style="width: 100%; height: 20em;"></div>
     </div>
 </template>
 

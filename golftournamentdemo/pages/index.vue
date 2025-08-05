@@ -52,33 +52,45 @@
                     <v-card-text>
                         <main-chart></main-chart>
                         <v-row>
-                            <v-col cols="4">
+                            <v-col cols="6">
                                 <v-card variant="flat">
                                     <v-card-title>
-                                        <span class=" text-gray-700">Eagles</span>
+                                        <span class=" text-gray-700 text-sm font-bold">Eagles</span>
                                     </v-card-title>
                                     <v-card-text>
                                          <minor-chart index="0"></minor-chart>
                                     </v-card-text>
                                 </v-card>
                             </v-col>
-                            <v-col cols="4">
+                            <v-col cols="6">
                                 <v-card variant="flat">
                                     <v-card-title>
-                                        <span class=" text-gray-700">Birdies</span>
+                                        <span class=" text-gray-700 text-sm font-bold">Birdies</span>
                                     </v-card-title>
                                     <v-card-text>
                                         <minor-chart index="1"></minor-chart>
                                     </v-card-text>
                                 </v-card>
                             </v-col>
-                            <v-col cols="4">
+                        </v-row>
+                            <v-row>
+                            <v-col cols="6">
                                 <v-card variant="flat">
                                     <v-card-title>
-                                        <span class=" text-gray-700">Par</span>
+                                        <span class=" text-gray-700 text-sm font-bold">Bogeys</span>
                                     </v-card-title>
                                     <v-card-text>
-                                        <minor-chart index="2"></minor-chart>
+                                         <minor-chart index="2"></minor-chart>
+                                    </v-card-text>
+                                </v-card>
+                            </v-col>
+                            <v-col cols="6">
+                                <v-card variant="flat">
+                                    <v-card-title>
+                                        <span class=" text-gray-700 text-sm font-bold">Par</span>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <minor-chart index="3"></minor-chart>
                                     </v-card-text>
                                 </v-card>
                             </v-col>
