@@ -15,7 +15,7 @@
             <div v-for="n in 4" :key="n" class="flex flex-col items-center">
                 <v-badge location="top left" color="primary" :content="n + 1">
                     <v-avatar size="x-large">
-                        <v-img alt="Avatar" src="https://avatars0.githubusercontent.com/u/9064066?v=4&s=460"></v-img>
+                        <v-img alt="Avatar" src="https://randomuser.me/api/portraits/women/85.jpg"></v-img>
                     </v-avatar>
                 </v-badge>
                 <span class="text-xs font-extralight mt-1">{{ n + 1 }} Player</span>
