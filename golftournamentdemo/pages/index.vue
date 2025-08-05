@@ -48,6 +48,42 @@
                             </v-chip>
                         </div>
                     </v-card-title>
+
+                    <v-card-text>
+                        <main-chart></main-chart>
+                        <v-row>
+                            <v-col cols="4">
+                                <v-card variant="flat">
+                                    <v-card-title>
+                                        <span class=" text-gray-700">Eagles</span>
+                                    </v-card-title>
+                                    <v-card-text>
+                                         <minor-chart index="0"></minor-chart>
+                                    </v-card-text>
+                                </v-card>
+                            </v-col>
+                            <v-col cols="4">
+                                <v-card variant="flat">
+                                    <v-card-title>
+                                        <span class=" text-gray-700">Birdies</span>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <minor-chart index="1"></minor-chart>
+                                    </v-card-text>
+                                </v-card>
+                            </v-col>
+                            <v-col cols="4">
+                                <v-card variant="flat">
+                                    <v-card-title>
+                                        <span class=" text-gray-700">Par</span>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <minor-chart index="2"></minor-chart>
+                                    </v-card-text>
+                                </v-card>
+                            </v-col>
+                        </v-row>
+                    </v-card-text>
                 </v-card>
             </v-container>
         </v-main>
@@ -55,6 +91,8 @@
 </template>
 
 <script setup>
+import MainChart from '~/components/MainChart.vue';
+import MinorChart from '~/components/MinorChart.vue';
 
 </script>
 
