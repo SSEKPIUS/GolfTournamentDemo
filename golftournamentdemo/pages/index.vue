@@ -10,12 +10,13 @@
                     </v-card-title>
                     <v-card-subtitle>
                         <v-list>
-                            <v-list-item prepend-avatar="~/assets/images/p1.jpeg"
-                                subtitle="dice@gmail.com" title="Dike  Atukunda"></v-list-item>
+                            <v-list-item prepend-avatar="~/assets/images/p1.jpeg" subtitle="dice@gmail.com"
+                                title="Dike  Atukunda"></v-list-item>
                         </v-list>
                     </v-card-subtitle>
                     <v-card-text>
-                        <span class=" text-sm text-gray-700 px-5">3 years experience in the golf game. Member of Uganda Gold club. Second place for the last years' Watoto Golf Tournament... <span
+                        <span class=" text-sm text-gray-700 px-5">3 years experience in the golf game. Member of Uganda
+                            Gold club. Second place for the last years' Watoto Golf Tournament... <span
                                 class=" text-blue-700 whitespace-nowrap">Full Bio</span> </span>
                     </v-card-text>
                     <v-card-actions>
@@ -31,6 +32,19 @@
                             </div>
                         </div>
                     </v-card-actions>
+                </v-card>
+
+                <v-card variant="flat">
+                    <v-card-text>
+                        <v-row>
+                            <v-col cols="6">
+                                <v-btn color="primary" class="w-full" variant="outlined">Subscribe</v-btn>
+                            </v-col>
+                            <v-col cols="6">
+                                <v-btn color="success" class="w-full" variant="flat">Donate</v-btn>
+                            </v-col>
+                        </v-row>
+                    </v-card-text>
                 </v-card>
 
                 <v-card variant="flat" class="mt-4">
@@ -55,7 +69,7 @@
                                         <span class=" text-gray-700 text-sm font-bold">Eagles</span>
                                     </v-card-title>
                                     <v-card-text>
-                                         <minor-chart index="0"></minor-chart>
+                                        <minor-chart index="0"></minor-chart>
                                     </v-card-text>
                                 </v-card>
                             </v-col>
@@ -70,14 +84,14 @@
                                 </v-card>
                             </v-col>
                         </v-row>
-                            <v-row>
+                        <v-row>
                             <v-col cols="6">
                                 <v-card variant="flat">
                                     <v-card-title>
                                         <span class=" text-gray-700 text-sm font-bold">Bogeys</span>
                                     </v-card-title>
                                     <v-card-text>
-                                         <minor-chart index="2"></minor-chart>
+                                        <minor-chart index="2"></minor-chart>
                                     </v-card-text>
                                 </v-card>
                             </v-col>
