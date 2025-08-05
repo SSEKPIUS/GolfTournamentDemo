@@ -10,8 +10,8 @@
                     </v-card-title>
                     <v-card-subtitle>
                         <v-list>
-                            <v-list-item prepend-avatar="~/assets/images/p1.jpeg" subtitle="dice@gmail.com"
-                                title="Dike  Atukunda"></v-list-item>
+                            <v-list-item prepend-avatar="~/assets/images/p1.jpeg" subtitle="atwinedice@gmail.com"
+                                title="Atwine Dice"></v-list-item>
                         </v-list>
                     </v-card-subtitle>
                     <v-card-text>

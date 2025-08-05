@@ -8,7 +8,7 @@
                 <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
                 <v-toolbar-title>
-                    <v-icon color="primary">mdi-folder</v-icon>
+                    <v-icon color="primary">mdi-golf</v-icon>
                 </v-toolbar-title>
 
                 <template v-if="$vuetify.display.mdAndUp">
@@ -16,13 +16,14 @@
 
                     <v-btn icon="mdi-filter" variant="text"></v-btn>
                 </template>
-
+                <v-spacer></v-spacer>
+                <v-img alt="Avatar" src="~/assets/images/nba.jpeg"></v-img>
                 <v-btn icon="mdi-dots-vertical" variant="text"></v-btn>
             </v-app-bar>
 
             <v-navigation-drawer v-model="drawer" :location="$vuetify.display.mobile ? 'bottom' : undefined" temporary>
                 <v-list :items="items">
-                    
+
                 </v-list>
             </v-navigation-drawer>
 
@@ -40,21 +41,21 @@ import TopPlayers from '~/components/TopPlayers.vue'
 
 const items = [
     {
-        title: 'Foo',
-        value: 'foo',
+        title: 'Players',
+        value: '/players',
     },
     {
-        title: 'Bar',
-        value: 'bar',
+        title: 'Tournaments',
+        value: '/tournaments',
     },
     {
-        title: 'Fizz',
-        value: 'fizz',
+        title: 'Scores',
+        value: '/scores',
     },
     {
-        title: 'Buzz',
-        value: 'buzz',
-    },
+        title: 'Settings',
+        value: '/settings',
+    }
 ]
 
 const drawer = ref(false)

@@ -18,7 +18,7 @@
                         <v-img alt="Avatar" src="~/assets/images/p1.jpeg"></v-img>
                     </v-avatar>
                 </v-badge>
-                <span class="text-xs font-extralight mt-1">Dike A</span>
+                <span class="text-xs font-extralight mt-1">Dice A</span>
             </div>
             <div class="flex flex-col items-center">
                 <v-badge location="top left" color="primary" content="-10">
