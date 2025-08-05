@@ -12,13 +12,37 @@
                     <span class="text-xs font-extralight mt-1">Top 4</span>
                 </div>
             </div>
-            <div v-for="n in 4" :key="n" class="flex flex-col items-center">
-                <v-badge location="top left" color="primary" :content="n + 1">
+            <div class="flex flex-col items-center">
+                <v-badge location="top left" color="primary" content="-20">
                     <v-avatar size="x-large">
-                        <v-img alt="Avatar" src="https://randomuser.me/api/portraits/women/85.jpg"></v-img>
+                        <v-img alt="Avatar" src="~/assets/images/p1.jpeg"></v-img>
                     </v-avatar>
                 </v-badge>
-                <span class="text-xs font-extralight mt-1">{{ n + 1 }} Player</span>
+                <span class="text-xs font-extralight mt-1">Dike A</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <v-badge location="top left" color="primary" content="-10">
+                    <v-avatar size="x-large">
+                        <v-img alt="Avatar" src="~/assets/images/p2.jpeg"></v-img>
+                    </v-avatar>
+                </v-badge>
+                <span class="text-xs font-extralight mt-1">Tendo T</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <v-badge location="top left" color="primary" content="-9">
+                    <v-avatar size="x-large">
+                        <v-img alt="Avatar" src="~/assets/images/p3.jpeg"></v-img>
+                    </v-avatar>
+                </v-badge>
+                <span class="text-xs font-extralight mt-1">Dickson A</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <v-badge location="top left" color="primary" content="-7">
+                    <v-avatar size="x-large">
+                        <v-img alt="Avatar" src="~/assets/images/p4.jpeg"></v-img>
+                    </v-avatar>
+                </v-badge>
+                <span class="text-xs font-extralight mt-1">Jackie N</span>
             </div>
         </v-col>
     </v-row>

@@ -26,7 +26,7 @@ onMounted(() => {
                 // center: ['25%', '50%'], // Position it on the left
                 max: 10, // Max value of the gauge, matching the original angleAxis max
                 data: [{
-                    value: 8,
+                    value: 2,
                     name: 'Value: 2'
                 }],
                 progress: {
@@ -89,13 +89,13 @@ onMounted(() => {
                 axisLabel: { show: false },
                 pointer: { show: false },
                 title: {
-                    offsetCenter: [0, '80%'],
+                    offsetCenter: [0, '40%'], // Position the title
                     color: '#666',
                     fontSize: 8
                 },
                 detail: {
                     show: true,
-                    offsetCenter: [0, '55%'],
+                    offsetCenter: [0, '10%'], // Position the value
                     fontSize: 10,
                     fontWeight: 'bold',
                     formatter: '{value}'

@@ -10,22 +10,19 @@
                     </v-card-title>
                     <v-card-subtitle>
                         <v-list>
-                            <v-list-item prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
-                                subtitle="sandra_a88@gmailcom" title="Sandra Adams"></v-list-item>
+                            <v-list-item prepend-avatar="~/assets/images/p1.jpeg"
+                                subtitle="dice@gmail.com" title="Dike  Atukunda"></v-list-item>
                         </v-list>
                     </v-card-subtitle>
                     <v-card-text>
-                        <span class=" text-sm text-gray-700 px-5">No et ipsum justo amet duo est lorem. Sed erat
-                            consetetur sanctus gubergren amet elitr aliquyam. Ka psd erat amet eirmod ut sit clita at.
-                            Takimata dolores no takimata sed diam sanctus ea. Sadipscing justo ipsum et accusam. Eirmod
-                            eirmod sit ea et magna tempor diam, et sit clita lorem clita. <span
-                                class=" text-blue-700">Full Bio</span> </span>
+                        <span class=" text-sm text-gray-700 px-5">3 years experience in the golf game. Member of Uganda Gold club. Second place for the last years' Watoto Golf Tournament... <span
+                                class=" text-blue-700 whitespace-nowrap">Full Bio</span> </span>
                     </v-card-text>
                     <v-card-actions>
                         <div class="flex justify-between w-full px-5 border border-gray-300 rounded">
                             <div class="flex flex-col items-center my-4 w-full">
                                 <span class=" font-bold">Position</span>
-                                <span class=" text-xl text-gray-700">7</span>
+                                <span class=" text-xl text-gray-700">1</span>
                             </div>
                             <v-divider vertical></v-divider>
                             <div class="flex flex-col items-center my-4 w-full">
